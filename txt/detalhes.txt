@@ -8,3 +8,12 @@ para trocar o localhost por um IP real e asism puxar de outro banco de dados, de
     }
 Além do fato de alterar o que ele vai utilizar como metodo de pesquisa.
 
+Detalhes importantes.
+
+O sistema para teste de funcionamento foi feito em *localhost*, com o app XAMPP que com as extensões abaixo linkam corretamente.
+https://prnt.sc/DtpiO4L0AIrj; https://prnt.sc/JTAKLz2fFGrv; https://prnt.sc/31JnkDOaaXKN; https://prnt.sc/KuzShYP8KOmj; https://prnt.sc/Iu9iQ9e_jkcn.
+
+Nem todos são necessários como os "Java", mas fica a critério já estar adicionado.
+
+Tanto este quanto o Backup estarão na nuvem. No meu GIT>
+    
