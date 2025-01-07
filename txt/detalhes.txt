@@ -15,5 +15,12 @@ https://prnt.sc/DtpiO4L0AIrj; https://prnt.sc/JTAKLz2fFGrv; https://prnt.sc/31Jn
 
 Nem todos são necessários como os "Java", mas fica a critério já estar adicionado.
 
-Tanto este quanto o Backup estarão na nuvem. No meu GIT>
-    
+Tanto este quanto o Backup estarão na nuvem. No meu GIT <
+
+
+    https://github.com/Tcordeir0/meu_projetinho-main.git Backup;
+    https://github.com/Tcordeir0/Projeto-Amonia.git Atual </>
+
+
+    (Ultima realização que eu fiz:
+    Deixar o PD em separação por pd1, pd2.. pd57. Além é claro do "ver todos").
