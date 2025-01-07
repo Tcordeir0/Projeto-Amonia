@@ -1,0 +1,10 @@
+para trocar o localhost por um IP real e asism puxar de outro banco de dados, deve ser feito:
+    trocar em consulta/conectar/inserir{
+        servername = localhost
+        username = *nome do ADM do servidor
+        password = *adicionar caso tenha senha
+        dbname = colocar o nome do banco de dados da onde irá puxar (Não ta tabela)
+            o que houver SELECT FROM trocar o nome "informacoes_amonia"
+    }
+Além do fato de alterar o que ele vai utilizar como metodo de pesquisa.
+

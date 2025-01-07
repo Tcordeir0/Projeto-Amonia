@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #a5d6a7; /* Pastel green color for the heading */
+}
+
+.date-input,
+.time-input,
+.pd-input{ /* Adicionando estilo para o campo de horário */
+    padding: 10px;
+    border: 1px solid #a5d6a7; /* Pastel green border */
+    border-radius: 5px;
+    background-color: #1e1e1e; /* Dark input background */
+    color: #e0e0e0; /* Light text */
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #a5d6a7; /* Pastel green button */
+    border: none;
+    border-radius: 5px;
+    color: #121212; /* Dark text */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #81c784; /* Darker pastel green on hover */
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1e1e1e; /* Dark background for results */
+    border: 1px solid #a5d6a7; /* Pastel green border */
+    border-radius: 5px;
+    max-width: 100%; /* Largura máxima */
+    width: 90%; /* Largura do resultado */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+    text-align: left; /* Alinha o texto à esquerda */
+    width: calc(100% - 22px); /* Largura total menos padding e borda */
+}
+.observacao {
+    color: #a5d6a7; /* Cor verde pastel */
+    font-weight: bold; /* Deixa o texto em negrito, se desejado */
+}
+.resultado p {
+    margin-bottom: 10px; /* Espaço entre os resultados */
+}
+
+.pd-value {
+    color: #a5d6a7; /* Cor verde pastel */
+    font-weight: bold; /* Deixa o texto em negrito, se desejado */
+    display: flex; /* Ativa o flexbox */
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+.pd-input {
+    padding: 10px;
+    border: 1px solid #a5d6a7; /* Borda verde pastel */
+    border-radius: 5px;
+    background-color: #1e1e1e; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro */
+    width: calc(50% - 22px); /* Largura total menos padding e borda */
+    margin-bottom: 10px; /* Espaço entre os campos */
+    appearance: none; /* Remove o estilo padrão do select */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Estilo para as opções do select */
+.pd-input option {
+    background-color: #1e1e1e; /* Fundo escuro para as opções */
+    color: #e0e0e0; /* Texto claro */
+}
+
+/* Estilo para o valor do PD exibido nos resultados */
+.pd-value {
+    color: #a5d6a7; /* Cor verde pastel */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-top: 5px; /* Espaço acima do valor do PD */
+}
